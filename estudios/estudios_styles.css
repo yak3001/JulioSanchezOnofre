@@ -15,7 +15,7 @@ a:hover {
 /* ESTILO HEADER */
 
 header {
-    background-image: url(/images/header.png);
+    background-image: url(../images/header.png);
     background-size: 40% 100%;
     font-family: 'Montserrat';
     padding-bottom: 12%;
@@ -99,7 +99,7 @@ header nav ul.menu li {
  /* TABLA */
 
  .estudios {
-     background-image: url(/images/trayectoria.png);
+     background-image: url(../images/trayectoria.png);
      background-size: contain;
      background-repeat: repeat-y;
      position: sticky;
@@ -395,7 +395,7 @@ header nav ul.menu li {
  /*FOOTER */
 
  footer {
-     background-image: url(/images/footer.png);
+     background-image: url(../images/footer.png);
      background-size: 30% 100%;
      background-repeat: repeat-x;
      padding-top: 5%;
