@@ -110,7 +110,7 @@ header nav ul.menu li {
  /*FOOTER */
 
  footer {
-     background-image: url(/images/footer.png);
+     background-image: url(../images/footer.png);
      background-size: 30% 100%;
      background-repeat: repeat-x;
      padding-top: 5%;
