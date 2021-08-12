@@ -15,7 +15,7 @@ a:hover {
 /* ESTILO HEADER */
 
 header {
-    background-image: url(/images/header.png);
+    background-image: url(../images/header.png);
     background-size: 40% 100%;
     font-family: 'Montserrat';
     padding-bottom: 12%;
@@ -68,7 +68,7 @@ header nav ul.menu li {
  
 
  .contacto {
-     background-image: url(/images/contacto.png);
+     background-image: url(../images/contacto.png);
      background-size: contain;
      background-repeat: no-repeat;
      background-position-x: right;
