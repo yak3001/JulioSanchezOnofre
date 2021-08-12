@@ -15,7 +15,7 @@ a:hover {
 /* ESTILO HEADER */
 
 header {
-    background-image: url(/images/header.png);
+    background-image: url(../images/header.png);
     background-size: 40% 100%;
     font-family: 'Montserrat';
     padding-bottom: 12%;
@@ -149,7 +149,7 @@ header nav ul.menu li {
  /*FOOTER */
 
  footer {
-     background-image: url(/images/footer.png);
+     background-image: url(../images/footer.png);
      background-size: 30% 100%;
      background-repeat: repeat-x;
      padding-top: 5%;
@@ -175,7 +175,7 @@ header nav ul.menu li {
  /* CONTENEDORES FLEX ACERCA.HTML */
 
  .acerca__item1 {
-     background-image: url(/images/main.png);
+     background-image: url(../images/main.png);
      background-size: 65%;
      background-attachment: local;
      background-repeat: no-repeat;
