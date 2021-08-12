@@ -18,7 +18,7 @@
  /* ESTILO HEADER */
 
  header {
-     background-image: url(/images/header.png);
+     background-image: url(images/header.png);
      background-size: 40% 100%;
      font-family: 'Montserrat';
      padding-bottom: 12%;
@@ -140,7 +140,7 @@ padding-top: 2%;
  }
 
  .index__muestra h3 {
-     background-image: url(/images/inter.png);
+     background-image: url(images/inter.png);
      background-size: cover;
      background-repeat: no-repeat;
      background-color: whitesmoke;
@@ -171,7 +171,7 @@ padding-top: 2%;
  /*FOOTER */
 
  footer {
-     background-image: url(/images/footer.png);
+     background-image: url(images/footer.png);
      background-size: 30% 100%;
      background-repeat: repeat-x;
      padding-top: 5%;
