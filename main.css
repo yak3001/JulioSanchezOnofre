@@ -137,23 +137,22 @@ padding-top: 2%;
      position: sticky;
  }
 
- .index__muestra h3 {
-    background-image: radial-gradient(farthest-side, whitesmoke, #ffbd59);
-     color: black;
-     font-family: 'Spartan';
+ 
+
+ .index__muestra a {
+     display: inline-block;
+    color: whitesmoke;
+    font-family: 'Spartan';
      font-size: 35px;
      padding-top: 3%;
-     padding-bottom: 1%;
+     padding-bottom: 3%;
      margin-left: 0%;
      margin-right: 0%;
      text-align: center;
      text-decoration: overline underline;
      text-decoration-style: double;
+     text-decoration-color: #ffbd59;
      text-transform: capitalize;
- }
-
- .index__muestra a {
-     color: black;
  }
 
  .index__muestra ul li {
