@@ -138,10 +138,7 @@ padding-top: 2%;
  }
 
  .index__muestra h3 {
-     background-image: url(images/inter.png);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-color: whitesmoke;
+    background-image: radial-gradient(farthest-side, whitesmoke, #ffbd59);
      color: black;
      font-family: 'Spartan';
      font-size: 35px;
