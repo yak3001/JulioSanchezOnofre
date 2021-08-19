@@ -17,16 +17,22 @@
         rel="stylesheet">
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- INICIO BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- FIN BOOTSTRAP-->
 </head>
 
-<body>
+<body style="background-color: black;">
 
-
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xs-4 col-md-12 col-lg-12">
     <header>
         <!--Esta es la barra de menú-->
         <!--Logo -->
         <a href="index.html">
-            <img src="images/logo.png" height="120" weight="120" alt="Julio Sánchez Onofre" class="logo"></a>
+            <img src="images/logo.png" height="60" weight="60" alt="Julio Sánchez Onofre" class="logo"></a>
         <!-- Menú-->
 
         <div class="social">
@@ -50,10 +56,16 @@
         </nav>
 
     </header>
+</div>
+</div>
+</div>
 
     <!--SECCIÓN PRINCIPAL-->
 
     <div class="container">
+       <div class="row">
+        <div class="col-md-6 col-lg-8">
+          <!-- <div class="col-xs-5 col-sm-5 col-md-5">-->
         <main class="index">
             <h1 class="animate__animated animate__zoomIn">JULIO CÉSAR<br>SÁNCHEZ ONOFRE <br></h1>
             <!--Sección principal-->
@@ -67,9 +79,12 @@
                 <div class="animate__animated animate__zoomIn animate__delay-4s">
                     <h2 class="index__subtitulo">Storytelling<br>
                 </div>
-            </div>
+            
         </main>
+    </div>
         <!--ASIDE-->
+    <!--<div class="col-xs-5 col-sm-5 col-md-5"> -->
+        <div class="col-md-6 col-lg-4">
         <aside class="index__item2 animate__animated animate__zoomIn animate__delay-4s">
             <h2 class="ultimo__subtitulo">Lo último</h2>
             <div>
@@ -80,7 +95,7 @@
                 <p>
                     <a href="https://la-lista.com/opinion/2021/08/12/la-manzana-envenenada-todos-bajo-sospecha"
                         target="blank"><b>
-                            La manzana envenenada:<br>todos bajo sospecha</a>
+                            La manzana envenenada: todos bajo sospecha </b></a>
                 </p>
             </div>
             <div>
@@ -91,7 +106,7 @@
                 <p>
                     <a href="https://la-lista.com/opinion/2021/07/29/tu-porno-en-onlyfans-no-es-tuyo-y-vivira-aunque-borres-tu-cuenta"
                         target="blank"><b>
-                            Tu porno en OnlyFans no es tuyo y<br>vivirá aunque borres tu cuenta…</b></a>
+                            Tu porno en OnlyFans no es tuyo y vivirá aunque borres tu cuenta…</b></a>
                 </p>
             </div>
             <div>
@@ -101,40 +116,46 @@
                         width="160" height="90" alt="La Lista"></a>
                 <p>
                     <a href="https://la-lista.com/opinion/2021/07/22/smartphone-yo-quiero-un-telefono-de-chicles"
-                        target="blank"><b>¿Smartphone? <br>¡Yo quiero un teléfono de chicles! <br></a>
+                        target="blank"><b>¿Smartphone? ¡Yo quiero un teléfono de chicles! </b></a>
                 </p>
             </div>
 
-    </div>
-    </aside>
+        </aside>
+        </div>
     </div>
     <!--SEGUNDA SECCIÓN LINKS MUESTRA-->
-    <section class="index__muestra animate__animated animate__zoomIn animate__delay-4s">
+    <div class="container-fluid">
+        <div class="animate__animated animate__zoomIn animate__delay-4s">
+    <section class="index__muestra">
         <h3 class="muestra__subtituloIndex"><a href="muestra/muestra.html">Conoce lo que hago</a></h3>
-        <div class="muestra__container">
-            <a href="muestra/muestra.html#Columnas"><img class="muestra__index" src="images/columnas.png"
-                    alt="Columnas"></a></li>
-            <a href="muestra/muestra.html#INE"><img class="muestra__index" src="images/comsoc.png"
-                    alt="INE Comunicación Social"></a></li>
-            <a href="muestra/muestra.html#Economista"><img class="muestra__index" src="images/tecnologia.png"
+    </div>
+</div>
+        <div class="row">
+            <a class="col-md-4" href="muestra/muestra.html#Columnas"><img class="muestra__index" src="images/columnas.png"
+                    alt="Columnas"></a>
+            <a class="col-md-4" href="muestra/muestra.html#INE"><img class="muestra__index" src="images/comsoc.png"
+                    alt="INE Comunicación Social"></a>
+            <a class="col-md-4" href="muestra/muestra.html#Economista"><img class="muestra__index" src="images/tecnologia.png"
                     alt="Reportero Tecnología">
             </a>
-        </div>
-        <div class="muestra__container">
-            <a href="muestra/muestra.html#Corresponsal"><img class="muestra__index" src="images/corresponsal.png"
+       
+            <a class="col-md-4" href="muestra/muestra.html#Corresponsal"><img class="muestra__index" src="images/corresponsal.png"
                     alt="Corresponsal">
             </a>
 
-            <a href="muestra/muestra.html#Mural"><img class="muestra__index" src="images/negocios.png"
+            <a class="col-md-4" href="muestra/muestra.html#Mural"><img class="muestra__index" src="images/negocios.png"
                     alt="Reportero Negocios">
             </a>
 
 
-            <a href="muestra/muestra.html#Especiales"><img class="muestra__index" src="images/especiales.png"
+            <a class="col-md-4" href="muestra/muestra.html#Especiales"><img class="muestra__index" src="images/especiales.png"
                     alt="Especiales">
             </a>
         </div>
     </section>
+    </div>
+</div>
+    
     <!--FOOTER -->
     <footer>
         <p>

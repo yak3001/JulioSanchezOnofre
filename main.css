@@ -12,7 +12,7 @@
  }
 
  .muestra__subtituloIndex a:hover {
-     color: white;
+     /*color: white;*/
  }
 
  /* ESTILO HEADER */
@@ -35,7 +35,6 @@
      image-rendering: optimizeSpeed;
      position: absolute;
      margin-top: 1%;
-     margin-left: 1%;
      z-index: -1;
  }
 
@@ -71,20 +70,19 @@ padding-top: 2%;
  /* ESTILOS MAIN */
 
  .index {
-     width: 900px;
+     /*width: 900px;
      float: left;
      padding-right: 3%;
      border-style: groove;
-     border-color: whitesmoke;
- }
+     border-color: whitesmoke;*/
+ } 
 
 
  .index h1 {
      color: #ffbd59;
      font-family: 'Spartan';
-     font-size: 50px;
-     text-align: left;
-     position: sticky;
+     /*font-size: 50px;*/
+     text-align: right;
      top: 5px;
      margin-left: 20%;
  }
@@ -183,7 +181,7 @@ padding-top: 2%;
 
  /* CONTENEDORES FLEX INDEX.HTML */
 
- .container {
+/* .container {
      display: flex;
      flex-wrap: wrap;
      flex-flow: row;
@@ -191,22 +189,22 @@ padding-top: 2%;
      justify-content: space-evenly;
      margin-left: 10px;
      margin-bottom: 10px;
- }
+ }*/
 
- .muestra__container {
+ /*.muestra__container {
      display: flex;
      flex-wrap: wrap;
      flex-flow: row;
      justify-content: space-evenly;
      margin-left: 10px;
      margin-bottom: 10px;
- }
+ }*/
 
- .index__item1 {
+.index__item1 {
      background-image: url(images/acerca.png);
-     background-size: 65%;
+     background-size:60%;
      background-repeat: no-repeat;
-     background-position: left;
+     background-position:left;
  }
 
  .index__item2 {
