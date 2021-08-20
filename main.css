@@ -82,18 +82,15 @@ padding-top: 2%;
      color: #ffbd59;
      font-family: 'Spartan';
      /*font-size: 50px;*/
-     text-align: right;
+     text-align: center;
      top: 5px;
-     margin-left: 20%;
  }
 
  .index__subtitulo {
      color: whitesmoke;
-     margin-left: 30%;
      font-family: 'Montserrat';
-     font-size: 33px;
-     text-align: right;
-     line-height: 180%;
+     text-align: center;
+     /*line-height: 180%;*/
      padding-top: 4%;
      text-decoration: overline underline;
      text-decoration-style: double;

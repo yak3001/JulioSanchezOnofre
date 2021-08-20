@@ -20,6 +20,16 @@
     <!-- INICIO BOOTSTRAP-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- BOOTSTRAP CON JS-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<style>
+    /*IMÁGENES CARRUSEL RESPONSIVAS*/
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+    </style>
 <!-- FIN BOOTSTRAP-->
 </head>
 
@@ -67,18 +77,53 @@
         <div class="col-md-6 col-lg-8">
           <!-- <div class="col-xs-5 col-sm-5 col-md-5">-->
         <main class="index">
-            <h1 class="animate__animated animate__zoomIn">JULIO CÉSAR<br>SÁNCHEZ ONOFRE <br></h1>
-            <!--Sección principal-->
+            <h1 class="animate__animated animate__zoomIn">JULIO CÉSAR<br>SÁNCHEZ ONOFRE</h1>
+            <!--Sección principal CRARRUSEL-->
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1" class="active"></li>
+                  <li data-target="#demo" data-slide-to="2" class="active"></li>
+                </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/carr1.png" alt="Comunicación Digital" width="1000" height="500">
+                    <div class="carousel-caption">
+                        <h3 class="index__subtitulo">Comunicación Digital</h3>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/carr2.png" alt="Periodismo" width="100" height="500">
+                    <div class="carousel-caption">
+                        <h3 class="index__subtitulo">Periodismo</h3>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/carr3.png" alt="Storytelling" width="1000" height="500">
+                    <div class="carousel-caption">
+                        <h3 class="index__subtitulo">Storytelling</h3>
+                    </div>   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+
+<!--
+              </div>
             <div class="index__item1">
                 <div class="animate__animated animate__zoomIn animate__delay-2s">
-                    <h2 class="index__subtitulo">Comunicación Digital
                 </div>
                 <div class="animate__animated animate__zoomIn animate__delay-3s">
                     <h2 class="index__subtitulo">Periodismo
                 </div>
                 <div class="animate__animated animate__zoomIn animate__delay-4s">
                     <h2 class="index__subtitulo">Storytelling<br>
-                </div>
+                </div>-->
             
         </main>
     </div>
@@ -168,6 +213,9 @@
     <script>
         new WOW().init();
     </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
