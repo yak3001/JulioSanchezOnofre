@@ -28,6 +28,12 @@
      z-index: 1;
  }
 
+ @media (max-width: 767px) {
+    header {
+        background-size: cover;
+ }
+}
+
  .navbar-toggler {
      margin-top: -3%;
      background-color: #ffbd59 !important;
