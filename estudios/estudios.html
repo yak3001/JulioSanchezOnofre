@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudios</title>
+    <title>Julio Sánchez Onofre</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,54 +15,84 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Spartan:wght@900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="estudios_styles.css" />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="./estudios_styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- INICIO BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
-<body>
-    <header>
-        <!--Esta es la barra de menú-->
-        <!--Logo -->
-        <a href="../index.html">
-            <img src="../images/logo.png" height="120" weight="120" alt="Julio Sánchez Onofre" class="logo"></a>
-        <!-- Menú-->
+<body style="background-color: black;">
 
-        <div class="social">
-            <a href="http://www.linkedin.com/in/juliosanchezonofre" target="_blank">
-                <img src="../images/logos/linkedin.png"
-                width="30" height="30" alt="LinkedIn"></a>
-                <a href="http://www.twitter.com/yak3001" target="_blank">
-                    <img src="../images/logos/twitter.png"
-                    width="30" height="30" alt="Twitter"></a>
-                    <a href="http://www.instagram.com/yak3001" target="_blank">
-                        <img src="../images/logos/instagram.png" width="30"
-                        height="30" alt="Instagram"></a>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-md-12 col-lg-12">
+                <header>
+                    <!--Esta es la barra de menú-->
+
+                    <div class="social">
+                        <a href="http://www.linkedin.com/in/juliosanchezonofre" target="_blank">
+                            <img src="../images/logos/linkedin.png" width="30" height="30" alt="LinkedIn"></a>
+                        <a href="http://www.twitter.com/yak3001" target="_blank">
+                            <img src="../images/logos/twitter.png" width="30" height="30" alt="Twitter"></a>
+                        <a href="http://www.instagram.com/yak3001" target="_blank">
+                            <img src="../images/logos/instagram.png" width="30" height="30" alt="Instagram"></a>
                         <a href="https://open.spotify.com/user/yak3001?si=5c391c5ae3bc4e84" target="blank">
-                            <img src="../images/logos/spotify.png"
-                            width="30" height="30" alt="Spotify"></a>
-                        </div>
-                        <nav>
-                            <ul class="menu">
-                                <li><a href="../contacto/contacto.html">Contacto</a></li>
-                                <li><a href="../trayectoria/trayectoria.html">Trayectoria</a></li>
-                                <li><a href="../estudios/estudios.html">Estudios</a></li>
-                                <li><a href="../acerca/acerca.html">Acerca de mí</a></li>
-                                <li><a href="../index.html"> Home</a></li>
-                            </ul>
+                            <img src="../images/logos/spotify.png" width="30" height="30" alt="Spotify"></a>
+                    </div>
+                    <div class="container">
+                        <nav class="navbar navbar-expand-md navbar-light bg-light1">
+                            <!--Logo -->
+                            <a class="logo" href="../index.html"><img src="../images/logo.png" height="40" weight="40"
+                                    alt="Julio Sánchez Onofre"></a>
+                            <!-- Menú-->
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" href="../index.html"> Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="../acerca/acerca.html">Acerca de
+                                            mí</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="../estudios/estudios.html">Estudios</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="../trayectoria/trayectoria.html">Trayectoria</a></li>
+                                    <li class="nav-item"><a class="nav-link"
+                                            href="../contacto/contacto.html">Contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </nav>
-                        
-                    </header>
-    <!--GRIDS TABLA ESTUDIOS-->
+                    </div>
+                </header>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="estudios">
     <main class="estudios">
-        <div class="estudios__grid animate__animated animate__bounceInUp">
-            <div class="estudios__item1">
-                <h2 class="animate__animated animate__zoomIn" id="estudios__sub">Estudios y formación</h2>
-            </div>
-            <div class="estudios__item2">
-                <h3><u>GRADO Y POSGRADO</u></h3>
-            </div>
+        <div class="estudios__item1">
+            <h2 class="animate__animated animate__zoomIn" id="estudios__sub">Estudios y formación</h2>
+        </div>
+        <!-- PRIMER COLLAPSE-->
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h3 class="estudios__item2">
+                        <button type="button" class="btn btn-link dropdown-toggle" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <u>GRADO Y POSGRADO</u>
+                        </button>
+                    </h3>
+                </div>
+                
+                <!--GRIDS TABLA ESTUDIOS GRADO Y POSGRADO-->
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+          <div class="estudios__grid animate__animated animate__bounceInUp">
             <div class="estudios__item3"><b><u>INSTITUCIÓN ACADÉMICA</u></b></div>
             <div class="estudios__item4"><b><u>PROGRAMA & GRADO</u></b></div>
             <div class="estudios__item5"><b>Universidad del Valle de México</b> (2006-2010)</div>
@@ -72,9 +102,27 @@
             <div class="estudios__item8"><b>Máster</b> en Periodismo Político Internacional</div>
             <div class="estudios__item9"><b>Universidad Internacional de La Rioja</b> (2021-actualmente)</div>
             <div class="estudios__item10"><b>Maestría</b> en Mercadotecnia Digital y Comercio Electrónico</div>
-            <div class="estudios__item11">
-                <h3><u>CURSOS Y DIPLOMADOS</u></h3>
             </div>
+        </div>
+    </div>
+  </div>
+  </div>
+  <!-- SEGUNDO COLLAPSE-->
+  <div id="accordion">
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h3 class="estudios__item2">
+                <button type="button" class="btn btn-link collapsed dropdown-toggle" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <u>CURSOS Y DIPLOMADOS</u>
+            </button>
+        </h3>
+    </div>
+            <!--GRIDS TABLA CURSOS Y DIPLOMADOS-->
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+            <div class="estudios__grid2 animate__animated animate__bounceInUp">
+            <div class="estudios__item11-1"><b><u>INSTITUCIÓN ACADÉMICA</u></b></div>
+            <div class="estudios__item11-2"><b><u>PROGRAMA & GRADO</u></b></div>
             <div class="estudios__item12"><b>Coder House</b> (En curso)</div>
             <div class="estudios__item13"><b>Curso:</b> Desarrollo Web</div>
             <div class="estudios__item14"><b>Universidad Nacional Autónoma de México</b> (2020) </div>
@@ -105,8 +153,13 @@
             <div class="estudios__item26"><b>eduMac Centro de Artes Digitales </b>(2010)</div>
             <div class="estudios__item27"><b>Diplomado:</b> Fotografía Digital</div>
         </div>
-
+    </div>
+</div>
+</div>
+</div>
     </main>
+    </div>
+    </div>
     <aside>
 
     </aside>
@@ -117,6 +170,26 @@
     <script>
        new WOW().init();
     </script>
+ <!-- BOOTSTRAP -->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+ integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+ crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+ crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+ crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+ integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+ crossorigin="anonymous"></script>
+
 </body>
 
 </html>
