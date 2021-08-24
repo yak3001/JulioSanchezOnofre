@@ -136,13 +136,14 @@
      color: whitesmoke;
      font-family: 'Montserrat';
      font-size: 12px;
- }          
-        }
- @media (orientation: landscape) {
+ }
+
+ @media (min-width: 768px) and (max-width: 991px) {
     #item3 {
         display: none;
     }           
         }
+ 
  
 
  /* SECTION */
