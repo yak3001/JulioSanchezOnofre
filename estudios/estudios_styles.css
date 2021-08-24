@@ -78,6 +78,11 @@ nav {
     .nav-item {
         padding-top: 0%;
     }
+    #estudios {
+
+        border-style: groove;
+        border-color: whitesmoke;
+    }
         }
         
         
