@@ -71,6 +71,9 @@
      align-items: right;
      padding-top: 0.5%;
  }
+ #muestra-row {
+    text-align: center !important;
+}
 
  /* ESTILOS MAIN */
 
