@@ -122,7 +122,7 @@ nav {
 
  .estudios__grid {
      display:grid;
-     margin-left: 10%;
+     margin-left: 8%;
      margin-right: 10%;
      grid-column-gap: 15px;
      grid-template-areas: "estudios__item2 estudios__item2" "estudios__item3 estudios__item4" "estudios__item5 estudios__item6" "estudios__item7 estudios__item8" "estudios__item9 estudios__item10" ;
@@ -131,7 +131,7 @@ nav {
  }
  .estudios__grid2 {
      display: grid;
-     margin-left: 10%;
+     margin-left: 8%;
      margin-right: 10%;
      grid-column-gap: 15px;
      grid-template-areas: "estudios__item11-1 estudios__item11-2" "estudios__item12 estudios__item13" "estudios__item14 estudios__item15" "estudios__item16 estudios__item17" "estudios__item18 estudios__item19" "estudios__item20 estudios__item21" "estudios__item22 estudios__item23" "estudios__item24 estudios__item25" "estudios__item26 estudios__item27";
