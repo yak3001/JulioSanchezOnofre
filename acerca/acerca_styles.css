@@ -8,63 +8,70 @@ html {
 /* EFECTOS VÍNCULOS */
 
 a:hover {
-    color: #ffbd59;
+    color: #ffbd59 !important;
 }
 
 
-/* ESTILO HEADER */
+ /* ESTILO HEADER */
 
-header {
+ header {
     background-image: url(../images/header.png);
     background-size: 40% 100%;
     font-family: 'Montserrat';
-    padding-bottom: 12%;
+    padding-bottom: 5%;
     padding-top: 0%;
     position: sticky;
     top: 1px;
     z-index: 1;
 }
 
-/* LOGO */
-
-header a img.logo {
-    display: inline-block;
-    image-rendering: optimizeSpeed;
-    position: absolute;
-    margin-top: 1%;
-    margin-left: 1%;
-    z-index: -1;
+@media (max-width: 767px) {
+   header {
+       background-size: cover;
+}
 }
 
-header nav ul li a {
-    color: whitesmoke;
-    font-weight: 900;
-    align-items: center;
+.navbar-toggler {
+    margin-top: -3%;
+    background-color: #ffbd59 !important;
+    font-size: 90% !important;
+    border: 1px solid #ffbd59 !important;
 }
 
-div.social{
+.nav-link {
+    color: whitesmoke !important;
+    font-weight: 900 !important;
+    align-items: right !important;
+}
+
+.bg-light1 {
+    background-color: transparent!important;
+}
+
+div.social {
     display: inline;
-   gap: 5px;
-    float:right;
-padding-top: 2%;
+    gap: 5px;
+    float: right;
+    padding-top: 2%;
 }
 
-nav{
+nav {
     display: inline;
 }
 
-header nav ul.menu li {
+.nav-item {
     list-style-type: none;
     text-decoration: overline underline;
     text-decoration-style: double;
     text-transform: capitalize;
-    font-display: block;
     font-size: 90%;
-    float:right;
-    padding-right: 1.3%;
-    padding-top: 2.5%;
+    align-items: right;
+    padding-top: 0.5%;
 }
 
+.row {
+    text-align: center !important;
+}
  /* ESTILOS MAIN */
 
  
@@ -72,37 +79,31 @@ header nav ul.menu li {
  .subtitulo {
      display: inline-block;
      color: whitesmoke;
-     margin-left: 30%;
      font-family: 'Montserrat';
      font-size: 33px;
-     text-align: left;
+     text-align: center;
      text-decoration: overline underline;
      text-decoration-style: double;
      text-decoration-color: #ffbd59;
-     /*position: sticky;*/
-     top: 35px;
+     margin-bottom: 4%;
+
  }
 
 
  .acerca {
      display: inline;
-     width: 900px;
      float: left;
      border-style: groove;
      border-color: whitesmoke;
-     padding-right: 45px;
  }
 
  .acerca__articulo {
      color: whitesmoke;
-     float: right;
-     position: sticky;
      font-family: 'Montserrat';
-     font-size: 14px;
-     width: 500px;
-     text-align: right;
-     line-height: 99%;
-     margin-bottom: 50px;
+     font-size: 90%;
+     line-height: 99.5%;
+     padding: 3%;
+     text-align: center;
  }
 
  /* CUADRO LATERAL */
@@ -127,24 +128,21 @@ header nav ul.menu li {
      padding-bottom: 20vh;
  }
 
+ .acerca__item2 {
+    background-image: linear-gradient(to left, #ffb84ecc, black);
+       display: inline-block;
+       align-content: center;
+       margin-left: 10px;
+       text-align: center;
+       padding: 10px;
+   } 
+  
 
- aside div p a {
+aside div p a {
      color: whitesmoke;
      font-family: 'Montserrat';
      font-size: 12px;
  }
-
-
- /* SECTION */
-
- .index__muestra {
-     background-color: transparent;
-     margin-left: 3%;
-     margin-right: 10%;
-     border-width: 8px;
-     position: sticky;
- }
-
 
  /*FOOTER */
 
@@ -157,39 +155,6 @@ header nav ul.menu li {
      font-family: 'Montserrat';
      text-align: center;
      color: whitesmoke;
- }
-
- /* CONTENEDORES FLEX INDEX.HTML */
-
- .container {
-     display: flex;
-     flex-wrap: wrap;
-     flex-flow: row;
-     align-items: stretch;
-     justify-content: space-evenly;
-     margin-left: 10px;
-     margin-bottom: 10px;
- }
-
-
- /* CONTENEDORES FLEX ACERCA.HTML */
-
- .acerca__item1 {
-     background-image: url(../images/main.png);
-     background-size: 65%;
-     background-attachment: local;
-     background-repeat: no-repeat;
-     background-position: left;
- }
-
- .acerca__item2 {
-    background-image: linear-gradient(to left, #ffb84ecc, black);
-     display: inline-block;
-     align-content: center;
-     /* width: 300px; */
-     margin-left: 10px;
-     text-align: center;
-     padding: 10px;
  }
 
 

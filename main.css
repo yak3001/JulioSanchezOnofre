@@ -126,9 +126,6 @@
 
  /* SECTION */
 
- .row {
-     text-align: center !important;
- }
 
  .index__muestra {
      background-color: transparent;
@@ -176,12 +173,6 @@
 
  /* CONTENEDORES FLEX INDEX.HTML */
 
- .index__item1 {
-     background-image: url(images/acerca.png);
-     background-size: 60%;
-     background-repeat: no-repeat;
-     background-position: left;
- }
 
  .index__item2 {
      background-image: linear-gradient(to left, #ffb84ecc, black);
