@@ -90,7 +90,7 @@ nav {
         font-size: 80%;
         }
         
-        
+    }
         /* ESTILOS MAIN */
         @media (min-width: 768px) {
         body {
@@ -169,6 +169,7 @@ nav {
      align-self: center;
      color: #ffbd59;
      font-family: 'Montserrat';
+     font-size: 16px;
      padding: 3%;
  }
 
@@ -258,6 +259,7 @@ nav {
     align-self: center;
     color: #ffbd59;
     font-family: 'Montserrat';
+    font-size: 16px;
     padding: 3%;
 }
 
@@ -268,6 +270,7 @@ nav {
     align-self: center;
     color: #ffbd59;
     font-family: 'Montserrat';
+    
     padding: 1%;
 }
 
