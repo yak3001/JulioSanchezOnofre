@@ -1,6 +1,6 @@
-/* RESETS */
+ /* RESETS */
 
-html {
+ html {
     margin: 0%;
     background-color: black;
 }
@@ -8,99 +8,120 @@ html {
 /* EFECTOS VÍNCULOS */
 
 a:hover {
-    color: #ffbd59;
+    color: #ffbd59 !important;
 }
 
 
-/* ESTILO HEADER */
+ /* ESTILO HEADER */
 
-header {
+ header {
     background-image: url(../images/header.png);
     background-size: 40% 100%;
     font-family: 'Montserrat';
-    padding-bottom: 12%;
+    padding-bottom: 5%;
     padding-top: 0%;
     position: sticky;
     top: 1px;
     z-index: 1;
 }
 
-/* LOGO */
-
-header a img.logo {
-    display: inline-block;
-    image-rendering: optimizeSpeed;
-    position: absolute;
-    margin-top: 1%;
-    margin-left: 1%;
-    z-index: -1;
+.navbar-toggler {
+    margin-top: -3%;
+    background-color: #ffbd59 !important;
+    font-size: 90% !important;
+    border: 1px solid #ffbd59 !important;
 }
 
-header nav ul li a {
-    color: whitesmoke;
-    font-weight: 900;
-    align-items: center;
+.nav-link {
+    color: whitesmoke !important;
+    font-weight: 900 !important;
+    align-items: right !important;
 }
 
-div.social{
+.bg-light1 {
+    background-color: transparent!important;
+}
+
+div.social {
     display: inline;
-   gap: 5px;
-    float:right;
-padding-top: 2%;
+    gap: 5px;
+    float: right;
+    padding-top: 2%;
 }
 
-nav{
+nav {
     display: inline;
 }
 
-header nav ul.menu li {
+.nav-item {
     list-style-type: none;
     text-decoration: overline underline;
     text-decoration-style: double;
     text-transform: capitalize;
-    font-display: block;
     font-size: 90%;
-    float:right;
-    padding-right: 1.3%;
-    padding-top: 2.5%;
+    align-items: right;
+    padding-top: 0.5%;
 }
 
- /* ESTILOS MAIN */
+@media (max-width: 767px) {
+    header {
+        background-size: 120% 130%;
+        padding-bottom: 10%;
+    }
+    .navbar-nav {
+       font-size: 85%;
+       padding: 0%;
+    }
+    .nav-item {
+        padding-top: 0%;
+    }
 
+
+           ul {
+               font-size: 93%;
+               margin-left: -5%;
+           }
+           .trayectoria__side__sectionSub {
+            color: #ffbd59;
+            font-size: 130% !important;
+        }
+       
+        }
+
+
+ /* ESTILOS MAIN */
+.container{
+align-content: center;
+
+}
  .subtitulo {
-     display: inline-block;
      color: whitesmoke;
-     margin-left: 30%;
      font-family: 'Montserrat';
      font-size: 33px;
-     text-align: left;
+     text-align: center;
      text-decoration: overline underline;
      text-decoration-style: double;
      text-decoration-color: #ffbd59;
-     /*position: sticky;*/
      top: 35px;
  }
 
-.container__trayectoria{
-    display: flex;
+ @media (min-width: 768px) {
+    body {
     background-image: url(../images/trayectoria.png);
-     background-size: contain;
-     background-repeat: repeat-y;
+    background-size:99%; 
+    background-repeat: repeat-y;
+    background-position:center;
+}
 }
  .trayectoria {
      display: inline-block;
      background-color: transparent;
-     width: 900px;
-     margin-left: 3%;
      padding-right: 3%;
-     border-color: #ffbd59;
  }
 
  .trayectoria__intro {
      color: whitesmoke;
-     margin-left: 15%;
      font-family: 'Montserrat';
-     font-size: 100%;
      text-align: center;
      background-color: transparent;
  }
@@ -111,7 +132,6 @@ header nav ul.menu li {
      font-family: 'Montserrat';
      line-height: 150%;
      background-color: transparent;
-     padding-left: 3%;
  }
 
  .trayectoria__primera a {
@@ -138,28 +158,22 @@ header nav ul.menu li {
  }
 
  .trayectoria__side {
-     display: block;
-     float: right;
-     width: 300px;
-     margin-left: 70px;
-     margin-right: 128px;
-     padding-left: 0px;
-     padding-right: 0px;
-     text-align: left;
+     padding-left: 0%;
+     padding-right: 0%;
      line-height: 150%;
  }
 
  .trayectoria__side h2 {
      font-family: 'Spartan';
-     font-size: 200%;
+     font-size: 150%;
      padding-top: 6%;
-     padding-bottom: 12%;
-     text-align: right;
+     padding-bottom: 6%;
+     padding-left: 6%;
+     text-align: left;
      text-decoration: overline underline;
      text-decoration-style: double;
      text-decoration-color: #ffbd59;
      text-transform: capitalize;
-     background-color: black;
  }
 
  .trayectoria__side div p a {
@@ -186,13 +200,14 @@ header nav ul.menu li {
 }
 
  .trayectoria__side ul li {
+     margin: 0px;
+ }
+ .trayectoria__aside ul li {
      list-style-type: none;
      margin: 0px;
  }
 
  .trayectoria__side__section {
-     display: block;
-     float: right;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center;
@@ -209,45 +224,54 @@ header nav ul.menu li {
  .trayectoria__side__section h2 {
      font-family: 'Spartan';
      font-size: 200%;
-     padding-top: 16%;
-     padding-bottom: 12%;
+     padding-top: 6%;
+     padding-bottom: 6%;
      text-align: center;
      text-decoration: overline underline;
      text-decoration-style: double;
      text-decoration-color: #ffbd59;
      text-transform: capitalize;
-     line-height: 150%;
+     line-height: 130%;
  }
 
  .trayectoria__side__sectionSub {
-     color: #ffbd59
+     color: #ffbd59;
+     font-size: 85%;
  }
 
  .trayectoria__side__sectionSub a {
-     color: #ffbd59
+     color: #ffbd59;
+     font-size: 85%;
  }
 
  .sectionTrayectoria a {
      color: whitesmoke;
  }
 
- /* SECTION */
 
- .trayectoria h3 {
+/*COLLAPSE */
+.card {
+    background-color: transparent !important;
+
+
+}
+.card-header {
+    text-align: left;
+
+    
+}
+.btn-block {
+    display: inline-block;
     background-image: radial-gradient(farthest-side, whitesmoke, #ffbd59);
-     color: black;
-     font-family: 'Spartan';
-     font-size: 25px;
-     padding-top: 3%;
-     padding-bottom: 2%;
-     margin-left: 0%;
-     margin-right: 0%;
-     text-align: center;
-     text-decoration: overline underline;
-     text-decoration-style: double;
-     text-transform: capitalize;
- }
-
+     color: black !important;
+     font-family: 'Spartan'!important;
+     text-decoration: overline underline !important;
+     text-decoration-style: double !important;
+     text-transform: capitalize !important;
+}
+.btn{
+    align-items: center;
+}
 
  /*FOOTER */
 
