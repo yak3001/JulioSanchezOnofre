@@ -98,19 +98,6 @@ nav {
  /* SECTION */
 
 
- .columnas__grid h3 {
-     color: #ffbd59;
-     font-family: 'Spartan';
-     font-size: 30px;
-     padding-top: 3%;
-     padding-bottom: 1%;
-     text-align: center;
-     text-transform: capitalize;
-     text-decoration-line: underline;
-     text-decoration-color: whitesmoke;
-     text-transform: uppercase;
- }
-
 #muestra2 {
 margin-left: 3%;
 }
@@ -118,7 +105,7 @@ margin-left: 3%;
  #muestra2 h3 {
      color: #ffbd59;
      font-family: 'Spartan';
-     font-size: 100%;
+     font-size: 150%;
      padding-top: 3%;
      padding-bottom: 1%;
      text-align: center;
@@ -128,17 +115,6 @@ margin-left: 3%;
      text-transform: uppercase;
  }
 
- .muestra_imagen {
-     width: 300px;
-     height: 400px;
-     object-fit: cover;
-     border: 5px groove whitesmoke;
-     display: block;
-     overflow: hidden;
-     opacity: 0.9;
-     filter: sepia(5);
-     transition: 1.5s;
- }
  .muestra_imagen2 {
     width: 150px;
     height: 200px;
@@ -156,21 +132,13 @@ margin-left: 3%;
      justify-content: center;
  }
 
- .muestra_imagen:hover {
-     transform: scale(1.1, 1.1);
-     opacity: 1;
-     filter: saturate(1.3);
- }
+
  .muestra_imagen2:hover {
      transform: scale(1.1, 1.1);
      opacity: 1;
      filter: saturate(1.3);
  }
 
- .columnas__grid a {
-     font-family: "Montserrat";
-     color: whitesmoke;
- }
  #muestra2 a {
      font-display:inherit;
      font-family: "Montserrat";
@@ -179,20 +147,61 @@ margin-left: 3%;
  }
 
  /*MEDIA QUERIES*/
- @media (max-width: 991.9px){
-     #grilla__muestra{
-
-        display: none;
-     }
-.muestra__subtitulo{
-    font-size: 140%;
+@media (min-width: 992px){
+    .muestra_imagen2 {
+        width: 270px;
+        height: 370px;
+        object-fit: cover;
+        border: 5px groove whitesmoke;
+        display: block;
+        overflow: hidden;
+        opacity: 0.9;
+        filter: sepia(5);
+        transition: 1.5s;
+    }
+    body {
+        background-image: url(../images/trayectoria.png);
+        background-size:99%; 
+        background-repeat: repeat-y;
+        background-position:center;
+    }
 }
-
- }
- @media (min-width: 992px){
-    #muestra2{
-
-       display: none;
+@media (min-width: 768px) and (max-width: 991.9px){
+    .muestra_imagen2 {
+        width: 190px;
+        height: 290px;
+        object-fit: cover;
+        border: 5px groove whitesmoke;
+        display: block;
+        overflow: hidden;
+        opacity: 0.9;
+        filter: sepia(5);
+        transition: 1.5s;
+    }
+    body {
+        background-image: url(../images/trayectoria.png);
+        background-size:99%; 
+        background-repeat: repeat-y;
+        background-position:center;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.9px){
+    .muestra_imagen2 {
+        width: 130px;
+        height: 230px;
+        object-fit: cover;
+        border: 5px groove whitesmoke;
+        display: block;
+        overflow: hidden;
+        opacity: 0.9;
+        filter: sepia(5);
+        transition: 1.5s;
+    }
+    body {
+        background-image: url(../images/trayectoria.png);
+        background-size:99%; 
+        background-repeat: repeat-y;
+        background-position:center;
     }
 }
 
@@ -210,317 +219,15 @@ margin-left: 3%;
  /*FOOTER */
     
  footer {
-     background-image: url(../images/footer.png);
-     background-size: 30% 100%;
-     background-repeat: repeat-x;
-     padding-top: 5%;
-     padding-bottom: 2%;
-     font-family: 'Montserrat';
-     text-align: center;
-     color: whitesmoke;
- }
-
-
- /* GRIDS MUESTRA.HTML */
-
- .columnas__grid {
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: repeat(6 1fr 4fr 1fr);
-     margin-left: 1%;
-     margin-right: 5%;
-     grid-column-gap: 15px;
-     grid-template-areas: "item1 item1 item1" "item2 item3 item4" "item2-1 item3-1 item4-1" "item5 item5 item5" "item6 item7 item8" "item6-1 item7-1 item8-1" "item9 item9 item9" "item10 item11 item12" "item10-1 item11-1 item12-1" "item13 item13 item13" "item14 item15 item16" "item14-1 item15-1 item16-1" "item17 item17 item17" "item18 item19 item20" "item18-1 item19-1 item20-1" "item21 item21 item21" "item22 item23 item24" "item22-1 item23-1 item24-1";
-     align-content: center;
- }
-
- .item1 {
-     grid-area: item1;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item2 {
-     grid-area: item2;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item2-1 {
-     grid-area: item2-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item3 {
-     grid-area: item3;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item3-1 {
-     grid-area: item3-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item4 {
-     grid-area: item4;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item4-1 {
-     grid-area: item4-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item5 {
-     grid-area: item5;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item6 {
-     grid-area: item6;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item6-1 {
-     grid-area: item6-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item7 {
-     grid-area: item7;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item7-1 {
-     grid-area: item7-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item8 {
-     grid-area: item8;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item8-1 {
-     grid-area: item8-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item9 {
-     grid-area: item9;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item10 {
-     grid-area: item10;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item10-1 {
-     grid-area: item10-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item11 {
-     grid-area: item11;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item11-1 {
-     grid-area: item11-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item12 {
-     grid-area: item12;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item12-1 {
-     grid-area: item12-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item13 {
-     grid-area: item13;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item14 {
-     grid-area: item14;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item14-1 {
-     grid-area: item14-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item15 {
-     grid-area: item15;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item15-1 {
-     grid-area: item15-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item16 {
-     grid-area: item16;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item16-1 {
-     grid-area: item16-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item17 {
-     grid-area: item17;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item18 {
-     grid-area: item18;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item18-1 {
-     grid-area: item18-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item19 {
-     grid-area: item19;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item19-1 {
-     grid-area: item19-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item20 {
-     grid-area: item20;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item20-1 {
-     grid-area: item20-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item21 {
-     grid-area: item21;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item22 {
-     grid-area: item22;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item22-1 {
-     grid-area: item22-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item23 {
-     grid-area: item23;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item23-1 {
-     grid-area: item23-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item24 {
-     grid-area: item24;
-     justify-items: center;
-     justify-self: center;
- }
-
- .item24-1 {
-     grid-area: item24-1;
-     padding-left: 60px;
-     padding-right: 60px;
-     justify-items: center;
-     justify-self: center;
- }
+    background-image: url(../images/footer.png);
+    background-size: 30% 100%;
+    background-repeat: repeat-x;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: 'Montserrat';
+    text-align: center;
+    color: whitesmoke;
+}
 
  /* ANIMACIONES */
 
