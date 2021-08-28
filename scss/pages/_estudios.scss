@@ -1,0 +1,131 @@
+#estudios__sub {
+    color: $color-texto;
+    font-family: "Montserrat";
+    font-size: 33px;
+    text-decoration: overline underline;
+    text-decoration-style: double;
+    text-decoration-color: $color-links;
+    top: 35px;
+    text-align: center;
+}
+
+/*COLLAPSE */
+.card {
+    background-color: transparent !important;
+}
+.card-header {
+    text-align: center;
+}
+.btn-link {
+    color: $color-texto !important;
+    font-family: "Montserrat";
+    font-size: 120% !important;
+}
+
+/* GRIDS TABLA SECCIÓN ESTUDIOS */
+
+.estudios {
+    @for $i from 1 to 3 {
+        .estudios__grid#{$i} {
+            display: grid;
+            margin-left: 8%;
+            margin-right: 10%;
+            grid-column-gap: 15px;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+    .estudios__grid1 {
+        grid-template-areas: "estudios__item2 estudios__item2" "estudios__item3 estudios__item4" "estudios__item5 estudios__item6" "estudios__item7 estudios__item8" "estudios__item9 estudios__item10";
+
+        .estudios__titulo {
+            justify-items: center;
+            justify-self: left;
+        }
+
+        .estudios__subtitulo {
+            grid-area: estudios__item2;
+            justify-self: center !important;
+            color: $color-texto;
+            font-family: "Montserrat";
+            font-size: 100% !important;
+        }
+
+        @for $i from 3 to 11 {
+            .estudios__item#{$i} {
+                grid-area: estudios__item#{$i};
+                justify-items: left;
+                justify-self: left;
+                align-self: center;
+                font-family: "Montserrat";
+                padding: 3%;
+            }
+        }
+        .estudios__item3,
+        .estudios__item4,
+        .estudios__item7,
+        .estudios__item8 {
+            color: $color-links;
+        }
+        .estudios__item2,
+        .estudios__item5,
+        .estudios__item6,
+        .estudios__item9,
+        .estudios__item10 {
+            color: $color-texto;
+        }
+    }
+    .estudios__subtitulo {
+        grid-area: estudios__item11;
+        justify-self: center;
+        color: $color-texto;
+        font-family: "Montserrat";
+        font-size: 100%;
+    }
+
+    .estudios__grid2 {
+        grid-template-areas: "estudios__item11 estudios__item12" "estudios__item13 estudios__item14" "estudios__item15 estudios__item16" "estudios__item17 estudios__item18" "estudios__item19 estudios__item20" "estudios__item21 estudios__item22" "estudios__item23 estudios__item24" "estudios__item25 estudios__item26" "estudios__item27 estudios__item28";
+    }
+    @for $i from 11 to 29 {
+        .estudios__item#{$i} {
+            grid-area: estudios__item#{$i};
+            justify-items: left;
+            justify-self: left;
+            align-self: center;
+            font-family: "Montserrat";
+            padding: 3%;
+        }
+    }
+
+    .estudios__item11,
+    .estudios__item12,
+    .estudios__item15,
+    .estudios__item16,
+    .estudios__item19,
+    .estudios__item20,
+    .estudios__item23,
+    .estudios__item24,
+    .estudios__item27,
+    .estudios__item28 {
+        color: $color-links;
+    }
+    .estudios__item13,
+    .estudios__item14,
+    .estudios__item17,
+    .estudios__item18,
+    .estudios__item21,
+    .estudios__item22,
+    .estudios__item25,
+    .estudios__item26 {
+        color: $color-texto;
+    }
+}
+
+@media (max-width: 767px) {
+    .estudios__grid1 {
+        font-size: 80%;
+    }
+    .estudios__grid2 {
+        font-size: 80%;
+    }
+}

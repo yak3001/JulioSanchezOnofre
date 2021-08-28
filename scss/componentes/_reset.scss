@@ -1,0 +1,27 @@
+html {
+    margin: 0%;
+    background-color:$color-background;
+}
+
+a:hover {
+    color: $color-links;
+}
+
+.animate__animated.animate__zoomIn {
+    --animate-duration: 3s;
+}
+
+//subtítulos
+.subtitulo--principal{
+    display: inline-block;
+    color: $color-texto;
+    font-family: "Montserrat";
+    margin-left: 20%;
+    font-size: 200%;
+    text-align: left;
+    text-decoration: overline underline;
+    text-decoration-style: double;
+    text-decoration-color: $color-links;
+    margin-bottom: 4%;
+}
+

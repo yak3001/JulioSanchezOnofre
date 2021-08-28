@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Spartan:wght@900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- INICIO BOOTSTRAP-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -28,7 +28,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-4 col-md-12 col-lg-12">
-                <header>
+                <header class="header">
                     <!--Esta es la barra de menú-->
 
                     <div class="social">
@@ -76,16 +76,16 @@
     <div class="container">
         <div class="row">
             <div class="col-md-9 col-lg-8">
-                <main class="index">
+                <main class="main__index">
                     <h1 class="animate__animated animate__zoomIn">JULIO CÉSAR<br>SÁNCHEZ ONOFRE</h1>
-                    <!--Sección principal CRARRUSEL-->
+                    <!--Sección principal CARRUSEL-->
                     <div id="demo" class="carousel slide" data-ride="carousel">
                         <ul class="carousel-indicators">
                             <li data-target="#demo" data-slide-to="0" class="active"></li>
                             <li data-target="#demo" data-slide-to="1" class="active"></li>
                             <li data-target="#demo" data-slide-to="2" class="active"></li>
                         </ul>
-                        <div class="carousel-inner">
+                        <div class="index__carousel-inner">
                             <div class="carousel-item active">
                                 <img src="images/carr1.png" alt="Comunicación Digital" width="1000" height="500">
                                 <div class="carousel-caption">
@@ -116,11 +116,22 @@
             </div>
             <!--ASIDE-->
             <div class="col-md-3 col-lg-4">
-                <aside class="index__item2 animate__animated animate__zoomIn animate__delay-4s">
-                    <h2 class="ultimo__subtitulo">Lo último</h2>
+                <aside class="aside__index__item2 animate__animated animate__zoomIn animate__delay-4s">
+                    <h2 class="aside__ultimo__subtitulo">Lo último</h2>
+                    <div>
+                        <a href="https://la-lista.com/opinion/2021/08/26/la-traicion-de-onlyfans-prueba-la-importancia-de-la-libre-competencia"
+                            target="blank"><img class="aside__img__ultimo"
+                                src="https://la-lista.com/wp-content/uploads/2021/08/onlyfans-1.jpg" width="160"
+                                height="90" alt="La Lista"></a>
+                        <p>
+                            <a href="https://la-lista.com/opinion/2021/08/26/la-traicion-de-onlyfans-prueba-la-importancia-de-la-libre-competencia"
+                                target="blank"><b>
+                                    La ‘traición’ de OnlyFans prueba la importancia de la libre competencia</b></a>
+                        </p>
+                    </div>
                     <div>
                         <a href="https://la-lista.com/opinion/2021/08/19/estrategia-digital-nacional-o-de-la-decepcion-nacional"
-                            target="blank"><img class="img__ultimo"
+                            target="blank"><img class="aside__img__ultimo"
                                 src="https://i1.wp.com/la-lista.com/wp-content/uploads/2020/12/computadora-trabajo-empleo-digital-oficina.jpg"
                                 width="160" height="90" alt="La Lista"></a>
                         <p>
@@ -130,63 +141,52 @@
                         </p>
                     </div>
                     <div>
-                        <a href="https://la-lista.com/opinion/2021/08/12/la-manzana-envenenada-todos-bajo-sospecha"
-                            target="blank"><img class="img__ultimo"
+                        <a id="item3"
+                            href="https://la-lista.com/opinion/2021/08/12/la-manzana-envenenada-todos-bajo-sospecha"
+                            target="blank"><img class="aside__img__ultimo"
                                 src="https://i2.wp.com/la-lista.com/wp-content/uploads/2021/04/Big-Apple.png?fit=1280%2C720&ssl=1"
                                 width="160" height="90" alt="La Lista"></a>
                         <p>
-                            <a href="https://la-lista.com/opinion/2021/08/12/la-manzana-envenenada-todos-bajo-sospecha"
+                            <a id="item3"
+                                href="https://la-lista.com/opinion/2021/08/12/la-manzana-envenenada-todos-bajo-sospecha"
                                 target="blank"><b>
                                     La manzana envenenada: todos bajo sospecha </b></a>
-                        </p>
-                    </div>
-                    <div>
-                        <a id="item3" href="https://la-lista.com/opinion/2021/07/29/tu-porno-en-onlyfans-no-es-tuyo-y-vivira-aunque-borres-tu-cuenta"
-                            target="blank"><img class="img__ultimo"
-                                src="https://i2.wp.com/la-lista.com/wp-content/uploads/2021/02/onlyfans.jpg?fit=1280%2C720&ssl=1"
-                                width="160" height="90" alt="La Lista"></a>
-                        <p>
-                            <a id="item3" href="https://la-lista.com/opinion/2021/07/29/tu-porno-en-onlyfans-no-es-tuyo-y-vivira-aunque-borres-tu-cuenta"
-                                target="blank"><b>
-                                    Tu porno en OnlyFans no es tuyo y vivirá aunque borres tu cuenta…</b></a>
                         </p>
                     </div>
                 </aside>
             </div>
         </div>
-        <!--SEGUNDA SECCIÓN LINKS MUESTRA-->
-        <div class="container">
-            <div class="animate__animated animate__zoomIn animate__delay-4s">
-                <section class="index__muestra" id="muestra">
-                    <h3><a href="muestra/muestra.html">Conoce lo que hago</a></h3>
+    </div>
+    <!--SEGUNDA SECCIÓN LINKS MUESTRA-->
+    <section class="container">
+        <div class="animate__animated animate__zoomIn animate__delay-4s">
+            <div class="index__muestra" id="muestra">
+                <h3><a href="muestra/muestra.html">Conoce lo que hago</a></h3>
+                <div class="row" id="muestra-row">
+                    <a class="col-md-4" href="muestra/muestra.html#Columnas"><img class="index__muestra__img"
+                            src="images/columnas.png" alt="Columnas"></a>
+                    <a class="col-md-4" href="muestra/muestra.html#INE"><img class="index__muestra__img"
+                            src="images/comsoc.png" alt="INE Comunicación Social"></a>
+                    <a class="col-md-4" href="muestra/muestra.html#Economista"><img class="index__muestra__img"
+                            src="images/tecnologia.png" alt="Reportero Tecnología">
+                    </a>
+
+                    <a class="col-md-4" href="muestra/muestra.html#Corresponsal"><img class="index__muestra__img"
+                            src="images/corresponsal.png" alt="Corresponsal">
+                    </a>
+
+                    <a class="col-md-4" href="muestra/muestra.html#Mural"><img class="index__muestra__img"
+                            src="images/negocios.png" alt="Reportero Negocios">
+                    </a>
+
+
+                    <a class="col-md-4" href="muestra/muestra.html#Especiales"><img class="index__muestra__img"
+                            src="images/especiales.png" alt="Especiales">
+                    </a>
+                </div>
             </div>
         </div>
-            <div class="row" id="muestra-row">
-                <a class="col-md-4" href="muestra/muestra.html#Columnas"><img class="muestra__index"
-                        src="images/columnas.png" alt="Columnas"></a>
-                <a class="col-md-4" href="muestra/muestra.html#INE"><img class="muestra__index" src="images/comsoc.png"
-                        alt="INE Comunicación Social"></a>
-                <a class="col-md-4" href="muestra/muestra.html#Economista"><img class="muestra__index"
-                        src="images/tecnologia.png" alt="Reportero Tecnología">
-                </a>
-
-                <a class="col-md-4" href="muestra/muestra.html#Corresponsal"><img class="muestra__index"
-                        src="images/corresponsal.png" alt="Corresponsal">
-                </a>
-
-                <a class="col-md-4" href="muestra/muestra.html#Mural"><img class="muestra__index"
-                        src="images/negocios.png" alt="Reportero Negocios">
-                </a>
-
-
-                <a class="col-md-4" href="muestra/muestra.html#Especiales"><img class="muestra__index"
-                        src="images/especiales.png" alt="Especiales">
-                </a>
-            </div>
-        </section>
-    </div>
-    </div>
-
+    </section>
     <!--FOOTER -->
     <footer>
         <p>

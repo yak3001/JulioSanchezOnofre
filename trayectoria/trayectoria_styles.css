@@ -14,80 +14,54 @@ a:hover {
 
  /* ESTILO HEADER */
 
- header {
-    background-image: url(../images/header.png);
+ .header {
+    background-image: url("../images/header.png");
     background-size: 40% 100%;
     font-family: 'Montserrat';
     padding-bottom: 5%;
     padding-top: 0%;
     position: sticky;
     top: 1px;
-    z-index: 1;
-}
-
-.navbar-toggler {
-    margin-top: -3%;
-    background-color: #ffbd59 !important;
-    font-size: 90% !important;
-    border: 1px solid #ffbd59 !important;
-}
-
-.nav-link {
-    color: whitesmoke !important;
-    font-weight: 900 !important;
-    align-items: right !important;
-}
-
-.bg-light1 {
-    background-color: transparent!important;
-}
-
-div.social {
-    display: inline;
-    gap: 5px;
-    float: right;
-    padding-top: 2%;
-}
-
-nav {
-    display: inline;
-}
-
-.nav-item {
-    list-style-type: none;
-    text-decoration: overline underline;
-    text-decoration-style: double;
-    text-transform: capitalize;
-    font-size: 90%;
-    align-items: right;
-    padding-top: 0.5%;
-}
-
-@media (max-width: 767px) {
-    header {
-        background-size: 120% 130%;
-        padding-bottom: 10%;
-    }
+    z-index: 1; }
+    .header .social {
+      display: inline;
+      gap: 5px;
+      float: right;
+      padding-top: 2%; }
+    .header .container .bg-light1 {
+      background-color: transparent; }
+    .header .container .navbar .navbar-toggler {
+      background-color: #ffbd59;
+      font-size: 90%;
+      border: 1px solid #ffbd59; }
+    .header .container .navbar #navbarNav .nav-item {
+      list-style-type: none;
+      text-decoration: overline underline;
+      text-decoration-style: double;
+      text-transform: capitalize;
+      font-size: 90%;
+      align-items: right;
+      padding-top: 0.5%; }
+      .header .container .navbar #navbarNav .nav-item a:hover {
+        color: #ffbd59; }
+    .header .container .navbar #navbarNav .nav-link {
+      color: whitesmoke;
+      font-weight: 900;
+      align-items: right; }
+  
+  @media (max-width: 767px) {
+    .header {
+      background-size: 120% 130%;
+      padding-bottom: 10%; }
+    .logo {
+      display: none; }
+    .navbar {
+      justify-content: flex-start; }
     .navbar-nav {
-       font-size: 85%;
-       padding: 0%;
-    }
+      font-size: 85%;
+      padding: 0%; }
     .nav-item {
-        padding-top: 0%;
-    }
-
-
-           ul {
-               font-size: 93%;
-               margin-left: -5%;
-           }
-           .trayectoria__side__sectionSub {
-            color: #ffbd59;
-            font-size: 130% !important;
-        }
-       
-        }
-
+      padding-top: 0%; } }
 
  /* ESTILOS MAIN */
 .container{
