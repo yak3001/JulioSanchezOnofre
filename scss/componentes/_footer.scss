@@ -7,4 +7,7 @@ footer {
     font-family: 'Montserrat';
     text-align: center;
     color: $color-texto;
+    @media (max-width: 575.9px) {
+        padding-top: 10% ;
+    }
 }

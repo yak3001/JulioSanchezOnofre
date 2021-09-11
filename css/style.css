@@ -534,7 +534,7 @@
     display: inline-block;
     color: whitesmoke;
     margin-left: 20%;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-size: 150%;
     text-align: left;
     line-height: 100%;
@@ -551,12 +551,15 @@
       border: 0; }
   .contacto form {
     color: whitesmoke;
-    font-family: 'Montserrat'; }
+    font-family: "Montserrat"; }
   .contacto .form-group {
     background-color: rgba(255, 153, 0, 0.226);
     padding-left: 10%;
     padding-right: 10%;
     margin-left: 10%; }
+    @media (max-width: 575.9px) {
+      .contacto .form-group {
+        margin-left: 0px; } }
 
 .header {
   background-image: url("../images/header.png");
@@ -616,6 +619,9 @@ footer {
   font-family: 'Montserrat';
   text-align: center;
   color: whitesmoke; }
+  @media (max-width: 575.9px) {
+    footer {
+      padding-top: 10%; } }
 
 html {
   margin: 0%;
