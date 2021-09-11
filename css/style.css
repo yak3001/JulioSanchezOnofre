@@ -562,114 +562,98 @@ a:hover {
   display: inline-block;
   background-color: transparent;
   padding-right: 3%; }
-
-.trayectoria__intro {
-  color: whitesmoke;
-  font-family: 'Montserrat';
-  text-align: center;
-  background-color: transparent; }
-
-.trayectoria__primera {
-  display: inline-block;
-  color: whitesmoke;
-  font-family: 'Montserrat';
-  line-height: 150%;
-  background-color: transparent; }
-
-.trayectoria__primera a {
-  color: whitesmoke; }
-
-.trayectoria__primera a:hover {
-  color: #ffbd59; }
-
-.trayectoria__lista {
-  list-style-type: none;
-  color: #ffbd59; }
-
-.trayectoria__side--subtitulo {
-  color: whitesmoke;
-  font-family: 'Spartan';
-  font-size: 20px;
-  padding-top: 4%;
-  text-decoration: overline underline;
-  text-decoration-style: double;
-  text-decoration-color: #ffbd59; }
+  .trayectoria__intro {
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    text-align: center;
+    background-color: transparent; }
+  .trayectoria__primera {
+    display: inline-block;
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    line-height: 150%;
+    background-color: transparent; }
+  .trayectoria__primera a {
+    color: whitesmoke; }
+  .trayectoria__primera a:hover {
+    color: #ffbd59; }
+  .trayectoria__lista {
+    list-style-type: none;
+    color: #ffbd59; }
 
 .trayectoria__side {
   padding-left: 0%;
   padding-right: 0%;
   line-height: 150%; }
-
-.trayectoria__side h2 {
-  font-family: 'Spartan';
-  font-size: 150%;
-  padding-top: 6%;
-  padding-bottom: 6%;
-  padding-left: 6%;
-  text-align: left;
-  text-decoration: overline underline;
-  text-decoration-style: double;
-  text-decoration-color: #ffbd59;
-  text-transform: capitalize; }
-
-.trayectoria__side div p a {
-  color: whitesmoke;
-  font-family: 'Montserrat';
-  font-size: 11px; }
-
-.trayectoria__side div {
-  font-family: 'Montserrat';
-  color: whitesmoke;
-  font-size: 15px; }
-
-.trayectoria__side a {
-  font-family: 'Montserrat';
-  color: whitesmoke;
-  font-size: 15px; }
-
-.trayectoria__side a:hover {
-  font-family: 'Montserrat';
-  color: #ffbd59;
-  font-size: 15px; }
-
-.trayectoria__side ul li {
-  margin: 0px; }
-
-.trayectoria__aside ul li {
-  list-style-type: none;
-  margin: 0px; }
+  .trayectoria__side--subtitulo {
+    color: whitesmoke;
+    font-family: 'Spartan';
+    font-size: 20px;
+    padding-top: 4%;
+    text-decoration: overline underline;
+    text-decoration-style: double;
+    text-decoration-color: #ffbd59; }
+  .trayectoria__side h2 {
+    font-family: 'Spartan';
+    font-size: 150%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+    text-align: left;
+    text-decoration: overline underline;
+    text-decoration-style: double;
+    text-decoration-color: #ffbd59;
+    text-transform: capitalize; }
+  .trayectoria__side div p a {
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    font-size: 11px; }
+  .trayectoria__side div {
+    font-family: 'Montserrat';
+    color: whitesmoke;
+    font-size: 15px; }
+  .trayectoria__side a {
+    font-family: 'Montserrat';
+    color: whitesmoke;
+    font-size: 15px; }
+  .trayectoria__side a:hover {
+    font-family: 'Montserrat';
+    color: #ffbd59;
+    font-size: 15px; }
+  .trayectoria__side ul li {
+    margin: 0px; }
 
 .trayectoria__side__section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   line-height: 150%; }
+  .trayectoria__side__section div {
+    font-family: 'Montserrat';
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: left; }
+  .trayectoria__side__section h2 {
+    font-family: 'Spartan';
+    font-size: 200%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+    text-decoration: overline underline;
+    text-decoration-style: double;
+    text-decoration-color: #ffbd59;
+    text-transform: capitalize;
+    line-height: 130%; }
+  .trayectoria__side__sectionSub {
+    color: #ffbd59;
+    font-size: 85%; }
+  .trayectoria__side__sectionSub a {
+    color: #ffbd59;
+    font-size: 85%; }
 
-.trayectoria__side__section div {
-  font-family: 'Montserrat';
-  color: whitesmoke;
-  font-size: 15px;
-  text-align: left; }
-
-.trayectoria__side__section h2 {
-  font-family: 'Spartan';
-  font-size: 200%;
-  padding-top: 6%;
-  padding-bottom: 6%;
-  text-align: center;
-  text-decoration: overline underline;
-  text-decoration-style: double;
-  text-decoration-color: #ffbd59;
-  text-transform: capitalize;
-  line-height: 130%; }
-
-.trayectoria__side__sectionSub {
-  color: #ffbd59;
-  font-size: 85%; }
-
-.trayectoria__side__sectionSub a {
-  color: #ffbd59;
-  font-size: 85%; }
+.trayectoria__aside ul li {
+  list-style-type: none;
+  margin: 0px; }
 
 .sectionTrayectoria a {
   color: whitesmoke; }
