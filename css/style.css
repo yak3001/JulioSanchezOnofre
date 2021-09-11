@@ -524,6 +524,175 @@
   .estudios__grid2 {
     font-size: 80%; } }
 
+@media (max-width: 575.9px) {
+  .container__trayectoria {
+    font-size: 80% !important; }
+    .container__trayectoria .trayectoria__intro {
+      font-size: 80% !important; }
+    .container__trayectoria ul li {
+      font-size: 80% !important; } }
+
+h3 {
+  font-size: 60% !important; }
+
+a:hover {
+  color: #ffbd59 !important; }
+
+.container {
+  align-content: center; }
+
+.subtitulo {
+  color: whitesmoke;
+  font-family: 'Montserrat';
+  font-size: 33px;
+  text-align: center;
+  text-decoration: overline underline;
+  text-decoration-style: double;
+  text-decoration-color: #ffbd59;
+  top: 35px; }
+
+@media (min-width: 768px) {
+  body {
+    background-image: url(../images/trayectoria.png);
+    background-size: 99%;
+    background-repeat: repeat-y;
+    background-position: center; } }
+
+.trayectoria {
+  display: inline-block;
+  background-color: transparent;
+  padding-right: 3%; }
+
+.trayectoria__intro {
+  color: whitesmoke;
+  font-family: 'Montserrat';
+  text-align: center;
+  background-color: transparent; }
+
+.trayectoria__primera {
+  display: inline-block;
+  color: whitesmoke;
+  font-family: 'Montserrat';
+  line-height: 150%;
+  background-color: transparent; }
+
+.trayectoria__primera a {
+  color: whitesmoke; }
+
+.trayectoria__primera a:hover {
+  color: #ffbd59; }
+
+.trayectoria__lista {
+  list-style-type: none;
+  color: #ffbd59; }
+
+.trayectoria__side--subtitulo {
+  color: whitesmoke;
+  font-family: 'Spartan';
+  font-size: 20px;
+  padding-top: 4%;
+  text-decoration: overline underline;
+  text-decoration-style: double;
+  text-decoration-color: #ffbd59; }
+
+.trayectoria__side {
+  padding-left: 0%;
+  padding-right: 0%;
+  line-height: 150%; }
+
+.trayectoria__side h2 {
+  font-family: 'Spartan';
+  font-size: 150%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 6%;
+  text-align: left;
+  text-decoration: overline underline;
+  text-decoration-style: double;
+  text-decoration-color: #ffbd59;
+  text-transform: capitalize; }
+
+.trayectoria__side div p a {
+  color: whitesmoke;
+  font-family: 'Montserrat';
+  font-size: 11px; }
+
+.trayectoria__side div {
+  font-family: 'Montserrat';
+  color: whitesmoke;
+  font-size: 15px; }
+
+.trayectoria__side a {
+  font-family: 'Montserrat';
+  color: whitesmoke;
+  font-size: 15px; }
+
+.trayectoria__side a:hover {
+  font-family: 'Montserrat';
+  color: #ffbd59;
+  font-size: 15px; }
+
+.trayectoria__side ul li {
+  margin: 0px; }
+
+.trayectoria__aside ul li {
+  list-style-type: none;
+  margin: 0px; }
+
+.trayectoria__side__section {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  line-height: 150%; }
+
+.trayectoria__side__section div {
+  font-family: 'Montserrat';
+  color: whitesmoke;
+  font-size: 15px;
+  text-align: left; }
+
+.trayectoria__side__section h2 {
+  font-family: 'Spartan';
+  font-size: 200%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  text-align: center;
+  text-decoration: overline underline;
+  text-decoration-style: double;
+  text-decoration-color: #ffbd59;
+  text-transform: capitalize;
+  line-height: 130%; }
+
+.trayectoria__side__sectionSub {
+  color: #ffbd59;
+  font-size: 85%; }
+
+.trayectoria__side__sectionSub a {
+  color: #ffbd59;
+  font-size: 85%; }
+
+.sectionTrayectoria a {
+  color: whitesmoke; }
+
+/*COLLAPSE */
+#accordion .card {
+  background-color: transparent !important; }
+
+#accordion .card-header {
+  text-align: left; }
+
+#accordion .btn-block {
+  display: inline-block;
+  background-image: radial-gradient(farthest-side, whitesmoke, #ffbd59) !important;
+  color: black !important;
+  font-family: "Spartan" !important;
+  text-decoration: overline underline !important;
+  text-decoration-style: double !important;
+  text-transform: capitalize !important; }
+
+#accordion .btn {
+  align-items: center; }
+
 /*FORMULARIO*/
 .contacto {
   background-image: url(../images/contacto.png);
