@@ -532,7 +532,7 @@
 .estudios .estudios__item24,
 .estudios .estudios__item27,
 .estudios .estudios__item28 {
-  color: #ffbd59; }
+  color: whitesmoke; }
   
 .estudios .estudios__item11,
 .estudios .estudios__item12,
@@ -544,7 +544,7 @@
 .estudios .estudios__item22,
 .estudios .estudios__item25,
 .estudios .estudios__item26 {
-  color: whitesmoke; }
+  color: #ffbd59; }
 
 @media (max-width: 767px) {
   .estudios__grid1 {
