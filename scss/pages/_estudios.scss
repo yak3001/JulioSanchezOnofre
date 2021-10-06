@@ -84,7 +84,7 @@
     }
 
     .estudios__grid2 {
-        grid-template-areas: "estudios__item11 estudios__item12" "estudios__item13 estudios__item14" "estudios__item15 estudios__item16" "estudios__item17 estudios__item18" "estudios__item19 estudios__item20" "estudios__item21 estudios__item22" "estudios__item23 estudios__item24" "estudios__item25 estudios__item26" "estudios__item27 estudios__item28";
+        grid-template-areas: "estudios__item11 estudios__item12" "estudios__item12-1 estudios__item12-2" "estudios__item13 estudios__item14" "estudios__item15 estudios__item16" "estudios__item17 estudios__item18" "estudios__item19 estudios__item20" "estudios__item21 estudios__item22" "estudios__item23 estudios__item24" "estudios__item25 estudios__item26" "estudios__item27 estudios__item28";
     }
     @for $i from 11 to 29 {
         .estudios__item#{$i} {
@@ -97,8 +97,8 @@
         }
     }
 
-    .estudios__item11,
-    .estudios__item12,
+    .estudios__item12-1,
+    .estudios__item12-2,
     .estudios__item15,
     .estudios__item16,
     .estudios__item19,
@@ -107,8 +107,10 @@
     .estudios__item24,
     .estudios__item27,
     .estudios__item28 {
-        color: $color-links;
+        color: $color-texto;
     }
+    .estudios__item11,
+    .estudios__item12,
     .estudios__item13,
     .estudios__item14,
     .estudios__item17,
@@ -117,7 +119,7 @@
     .estudios__item22,
     .estudios__item25,
     .estudios__item26 {
-        color: $color-texto;
+        color: $color-links;
     }
 }
 

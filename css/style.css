@@ -376,7 +376,6 @@
   align-self: center;
   font-family: "Montserrat";
   padding: 3%; }
-  
   .estudios .estudios__item12-1 {
     grid-area: estudios__item12-1;
     justify-items: left;
@@ -392,7 +391,6 @@
     align-self: center;
     font-family: "Montserrat";
     padding: 3%; }
-
 .estudios .estudios__item13 {
   grid-area: estudios__item13;
   justify-items: left;
@@ -408,7 +406,6 @@
   align-self: center;
   font-family: "Montserrat";
   padding: 3%; }
-
 
 .estudios .estudios__item15 {
   grid-area: estudios__item15;
@@ -522,18 +519,18 @@
   font-family: "Montserrat";
   padding: 3%; }
 
-  .estudios .estudios__item12-1,
-  .estudios .estudios__item12-2,
-  .estudios .estudios__item15,
-  .estudios .estudios__item16,
-  .estudios .estudios__item19,
-  .estudios .estudios__item20,
+.estudios .estudios__item12-1,
+.estudios .estudios__item12-2,
+.estudios .estudios__item15,
+.estudios .estudios__item16,
+.estudios .estudios__item19,
+.estudios .estudios__item20,
 .estudios .estudios__item23,
 .estudios .estudios__item24,
 .estudios .estudios__item27,
 .estudios .estudios__item28 {
   color: whitesmoke; }
-  
+
 .estudios .estudios__item11,
 .estudios .estudios__item12,
 .estudios .estudios__item13,
